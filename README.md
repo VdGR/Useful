@@ -8,5 +8,5 @@ mkv ---> mp4 (https://gist.github.com/jamesmacwhite/58aebfe4a82bb8d645a797a1ba97
 
 split join
 
-split -b 1G -d bigfile bigfile-part
+split -b 1G -d bigfile bigfile-part\
 cat bigfile-part* > bigfile
