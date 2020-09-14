@@ -10,3 +10,8 @@ split join
 
 split -b 1G -d bigfile bigfile-part\
 cat bigfile-part* > bigfile
+
+if not exist "FILEFILE %Date:~9% %Date:~6,2% %Date:~3,2%.xlsx" copy "I:\FILFILE.xlsx" "FILEFILE %Date:~9% %Date:~6,2% %Date:~3,2%.xlsx"
+
+
+
