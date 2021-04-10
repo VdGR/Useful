@@ -1,0 +1,1 @@
+ffmpeg -i '.\input.mkv' -ss 230 -vcodec copy -acodec copy output.mp4
