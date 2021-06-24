@@ -1,0 +1,4 @@
+sudo apt-get install qemu-utils
+qemu-img convert vmdk original.vmdk -m 16 -p -O raw converted.raw
+qemu-img convert -f vmdk original.vmdk -m 16 -p -O raw converted.raw
+
