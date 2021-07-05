@@ -1,0 +1,2 @@
+pip install youtube-dl
+youtube-dl -cit --extract-audio --audio-format mp3 -i <playlist id>
