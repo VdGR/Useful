@@ -12,3 +12,9 @@ sudo mount -t cifs '//192.168.0.1/ShareName' /mnt/nas -o username=youruser,passw
 
 
 
+## Change SI timestamps 
+```bash
+#FileCreateDate, FileModifyDate = SI timestamps
+#DateTimeOriginal date value which is copied
+exiftool "-FileCreateDate<DateTimeOriginal" "-FileModifyDate<DateTimeOriginal" IMG_0088.jpeg
+```
